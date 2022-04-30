@@ -11,7 +11,7 @@ module.exports = {
         pid: process.pid,
         fileProyect: process.mainModule.path
     },
-    PORT: 8080,
+    PORT: 8081,
     mongoRemote: {
         client: { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 },
         cnxStr: `${process.env.URI}`
